@@ -9,12 +9,15 @@
 // I AM NOT DONE
 
 struct Wrapper {
-    value: u32,
+    value: u32
 }
 
 impl Wrapper {
     pub fn new(value: u32) -> Self {
         Wrapper { value }
+    }
+    fn value(value1:String) -> String{
+        value1
     }
 }
 
